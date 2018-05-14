@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Final Project</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		75% {
+  font-size: 300%;
+  margin-left: 25%;
+  width: 150%;
+}
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+div.a {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+div.b {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+
+	</style>
+</head>
+<body>
+	<div>
+		<a href="https://www.nytimes.com/interactive/2017/10/06/us/las-vegas-gun-deaths.html" target="_blank"><img src="0.png" alt="header" id="header"></a>
+	</div>
+	<div id="body">
+		<div id="sub-body">
+			<h1>Comparing the Las Vegas Attack With Daily Gun Deaths in U.S. Cities</h1>
+			<h3>By LARRY BUCHANAN, TROY GRIGGS, JASMINE C. LEE and KAREN YOURISH <i>OCT. 6, 2017</i></h3>
+			<p>On Sunday night in Las Vegas, 58 people were killed in a single mass shooting, one of the deadliest in American history. How does that compare with the daily gun deaths in cities across the United States?</p>
+			<p>In Chicago, 58 people were killed by guns in a span of 28 days, counting back from Sept. 29, two days before the Las Vegas attack. Many shootings were of one person, not mass attacks. In Baltimore, there were 58 gun deaths in 68 days. In Houston, it was 118 days.</p>
+			<p>These and other cities are shown below. The gun deaths, all from 2017, were tracked by the Gun Violence Archive, a nonprofit organization that catalogs episodes of gun violence.</p>
+		</div>
+	</div>
+	<div id="photos">
+		<div class="a">
+			<img src="1.png">
+		</div>
+
+		<div class="b">
+			<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="2.png" alt="photo">
+		</div>
+
+		<img src="3.png" alt="photo">
+		<img src="4.png">
+		<img src="5.png">
+		<img src="6.png">
+		<img src="7.png">
+		<img src="8.png">
+		<img src="9.png">
+		<img src="10.png">
+		<img src="11.png">
+		<img src="12.png">
+		<img src="13.png">
+		<img src="14.png">
+		<img src="15.png">
+		<img src="16.png">
+		<img src="17.png">
+		<img src="18.png">
+		<img src="19.png">
+		<img src="20.png">
+		<img src="21.png">
+		<img src="22.png">
+		<img src="23.png">
+		<img src="24.png">
+		<img src="25.png">
+		<img src="26.png">
+		<img src="27.png">
+		<img src="28.png">
+		<img src="29.png">
+	</div>
+	<div id="footnote">
+	<p><b>Note: To illustrate the same number of gun deaths across cities, in some instances, the number shown for the earliest day does not reflect the complete toll. For example, on Sept. 2 in Chicago, two people were killed by guns, not one. Suicides are excluded because they are not consistently tracked by day.</b></p>
+	</div>
+
+	<script>
+		function bigImg(x) {
+  		x.style.height = "110%";
+   		x.style.width = "110%";
+		}
+
+		function normalImg(x) {
+   		x.style.height = "245px";
+    	x.style.width = "1146px";
+		}
+
+		
+	</script>
+</body>
+</html>
+

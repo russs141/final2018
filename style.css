@@ -1,0 +1,31 @@
+#header {
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+#body {
+	width: 350px;
+	margin: 0 auto;
+}
+h1 {
+	padding-top: 50px;
+	text-align: center;
+}
+h3 {
+	font-size: 10px;
+	text-align: center;
+}
+#photos {
+	width: 85%;
+	margin: 0 auto;
+}
+#footnote {
+	width: 350px;
+	margin: 0 auto;
+	padding: 50px;
+	font-size: 12px;
+}
+
+/*At least four types of CSS transformations, transitions, and animations
+Other Interactive components, like hover effects, mouseenter, mouseleave
+https://www.nytimes.com/interactive/2017/10/06/us/las-vegas-gun-deaths.html*/
